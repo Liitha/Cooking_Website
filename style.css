@@ -1,0 +1,162 @@
+.header {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px; 
+    justify-content: space-between; 
+}
+
+img{
+    display: flex;
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+}
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+button {
+    display: flex;
+}
+
+.search{
+    text-align: center;
+    display: inline-flex;
+    width: 650px;
+    height: 50px;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.subscribe, .login {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.subscribe{
+    background-color: #df321b;
+    color: white;
+}
+
+.menu-buttons {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.button1,.button2,.button3,.button4,.button5{
+    display: inline-block;
+    margin: 0px 0px 0px 70px;
+    justify-content: flex-start;
+    border: none;
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover {
+    border-bottom:2px solid #df321b; 
+}
+
+.sesame-salmon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.img-sesame-salmon{
+    flex-shrink: 0;
+}
+.sesame-salmon-bowls{
+    width: 600px;
+    height: 400px;
+}
+.content-sesame-salmon{
+    max-width: 500px;
+}
+
+p, a{
+    margin: 7px 7px 7px 7px;
+    padding: 0px 0px 0px 0px;
+}
+
+.mashed-potato-img{
+    width: 700px;
+    height: 500px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttons > *{
+    display: flex;
+    border: none;
+    background-color: white;
+    margin: 25px 5px 25px 5px;
+    padding: 10px 10px 10px 10px;
+    font-size: medium;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.make-ahead:hover, .top-recipes:hover, .sides:hover, .appetizers:hover, .pies:hover, .easy-desserts:hover, .vegetarian-mains:hover, .potatoes:hover, .stuffing:hover, .turkey:hover, .drinks:hover{
+    background-color: #f8e19a;
+}
+
+.learn-more-div ,.recipes-div, .about-us{
+    display: inline-block;
+}
+
+.learn-more, .shop, .recipes, .about-us{
+    display: inline-block;
+}
+
+.footers{
+    background-color: black;
+    color: white;
+}
+
+.learn-more > *{
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.subscribe-now-a:hover{
+    color: #df321b;
+}
+
+.just-above-the-footer{
+    background-color: #e7e6e6;
+    height: 250px;
+}
+
+.get-our-news{
+    font-size: x-large;
+}
+
+.get-our-news-content{
+}
