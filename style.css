@@ -158,5 +158,26 @@ ul{
     font-size: x-large;
 }
 
-.get-our-news-content{
+.about-us-a:hover{
+    border-top: #df321b;
+
 }
+
+.about-us-a{
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    color: #df321b;
+}
+
+.img1, .img2, .img3{
+    width: 400px;
+    height: 700px;
+    float: left;
+    padding: 10px;
+}
+
+.rep-1, .rep-2, .rep-3{
+    display: inline-block;
+}
+

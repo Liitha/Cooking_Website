@@ -1,0 +1,27 @@
+.about-us{
+    float: right;
+    width: 600px;
+    height: 300px;
+}
+
+.text-p{
+    text-align: end;
+    float: none;
+}
+
+hr{
+    border-bottom: 4px solid black;
+}
+
+.about-us-div-content{
+
+}
+
+.about-us-p, .about-us-content{
+    
+}
+.img1, .img2, .img3, .img4, .img5, .img6,.img7, .img8{
+    width: 125px;
+    height: 125px;
+    border-radius: 150px;
+}
