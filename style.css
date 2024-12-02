@@ -96,9 +96,10 @@ p, a{
     padding: 0px 0px 0px 0px;
 }
 
+/* added 99 percent to img fit the screen */
 .mashed-potato-img{
-    width: 700px;
-    height: 500px;
+    max-width: 99%;
+    max-height: 99%;
 }
 
 .buttons{
@@ -181,3 +182,19 @@ ul{
     display: inline-block;
 }
 
+/* added 99 percent scroll width to fit the screen */
+.scroll {
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 99%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border: 1px solid #ddd;
+}
+
+#rectangle{
+    width:200px;
+    height:100px;
+    background:blue;
+}
